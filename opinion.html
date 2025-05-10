@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Your Voice | Censorship in Video Games</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -33,22 +32,10 @@
 
       </textarea><br>
       <input type="submit">
-      <div  id="mymessage"></div>
     </form>
   </main>
   <footer>
     <p>&copy; 2025 Trevor, Cory, Brandon</p>
   </footer>
-
-  <script>
-    $(document).ready(function() {
-      $("#formsubmission").submit(function(event) {
-        event.preventDefault();
-
-        $("#mymessage").html("Email has been sent. Thank you for sharing your thoughts with us!").fadeIn();
-        $(this).trigger("reset");
-      });
-    });
-  </script>
 </body>
 </html>

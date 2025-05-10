@@ -35,9 +35,26 @@ body {
     transition: 0.25s ease-in-out;
   }
 
-  #mymessage {
-    display: none;
-    margin-top: 10px;
+  #articlecontainer {
+    border: 2px, solid, black;
+    height: auto;
+    width: 1000px;
+    box-shadow: 3px 3px 10px 0px black;
+    margin-bottom: 50px;
+  }
+
+  article {
+    padding: 10px;
+  }
+
+  article a {
+    text-decoration: none;
+    color: Black;
+  }
+
+  article a:hover {
+    color: #4A4A58;
+    transition: 0.25s ease-in-out;
   }
   
   main {
