@@ -56,6 +56,11 @@ body {
     color: #4A4A58;
     transition: 0.25s ease-in-out;
   }
+
+  img {
+    border: 4px solid black;
+    display: flex;
+  }
   
   main {
     max-width: 1000px;
